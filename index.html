@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Find a friendly expert tutor and book a one-to-one learning session.">
+    <title>BrightPath Tutors — Learn with confidence</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">BrightPath Tutors</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#tutors">Meet the tutors</a>
+        <a href="#booking">Book a session</a>
+      </nav>
+      <div class="intro" id="home">
+        <h1>BrightPath Tutors</h1>
+        <p class="tagline">One-to-one learning, guided by people who care.</p>
+      </div>
+    </header>
+
+    <main>
+      <section id="tutors" aria-labelledby="tutors-heading">
+        <h2 class="section-heading" id="tutors-heading">Find your tutor</h2>
+        <div class="tutor-grid">
+          <article class="tutor-card">
+            <h3>Maya Chen</h3>
+            <p class="subject">Mathematics</p>
+            <p>Build confidence in algebra and calculus with clear, practical lessons.</p>
+            <p class="rate">$40 / hour</p>
+          </article>
+          <article class="tutor-card">
+            <h3>Jordan Patel</h3>
+            <p class="subject">English Literature</p>
+            <p>Explore great books and sharpen your writing, one idea at a time.</p>
+            <p class="rate">$35 / hour</p>
+          </article>
+          <article class="tutor-card">
+            <h3>Amara Okafor</h3>
+            <p class="subject">Biology</p>
+            <p>Make tricky topics click with visual explanations and guided practice.</p>
+            <p class="rate">$38 / hour</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="booking-section" id="booking" aria-labelledby="booking-heading">
+        <h2 class="section-heading" id="booking-heading">Request a session</h2>
+        <form class="booking-form" action="#" method="get">
+          <div class="form-field">
+            <label for="student-name">Your name</label>
+            <input id="student-name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="student-email">Email address</label>
+            <input id="student-email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+              <option value="">Choose a subject</option>
+              <option value="mathematics">Mathematics</option>
+              <option value="english-literature">English Literature</option>
+              <option value="biology">Biology</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="session-date">Preferred date</label>
+            <input id="session-date" name="date" type="date" required>
+          </div>
+          <div class="form-field">
+            <label for="message">What would you like help with?</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </div>
+          <button type="submit">Request a session</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <p>&copy; 2026 BrightPath Tutors. All rights reserved.</p>
+      <p>Questions? <a href="mailto:hello@brightpathtutors.example">hello@brightpathtutors.example</a></p>
+    </footer>
+  </body>
+</html>
