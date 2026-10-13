@@ -9,19 +9,20 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#home">BrightPath Tutors</a>
+      <a class="brand" href="index.html">BrightPath Tutors</a>
       <nav class="site-nav" aria-label="Main navigation">
-        <a href="#home">Home</a>
-        <a href="#tutors">Meet the tutors</a>
-        <a href="#booking">Book a session</a>
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="tutor.html">Tutor profile</a>
+        <a href="become-a-tutor.html">Become a tutor</a>
       </nav>
-      <div class="intro" id="home">
+    </header>
+
+    <main id="home">
+      <div class="intro">
         <h1>BrightPath Tutors</h1>
         <p class="tagline">One-to-one learning, guided by people who care.</p>
       </div>
-    </header>
 
-    <main>
       <section id="tutors" aria-labelledby="tutors-heading">
         <h2 class="section-heading" id="tutors-heading">Find your tutor</h2>
         <div class="tutor-grid">
@@ -29,7 +30,16 @@
             <h3>Maya Chen</h3>
             <p class="subject">Mathematics</p>
             <p>Build confidence in algebra and calculus with clear, practical lessons.</p>
+            <video controls preload="metadata" aria-label="Maya Chen's tutor introduction video">
+    <source
+        src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+        type="video/mp4"
+    >
+    Your browser does not support HTML5 video.
+</video>
+
             <p class="rate">$40 / hour</p>
+            <p><a href="tutor.html">View Maya's profile</a></p>
           </article>
           <article class="tutor-card">
             <h3>Jordan Patel</h3>
